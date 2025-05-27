@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="yo">
+        <h2>Student Registration Form</h2>
+    </div>
+
+    <div id="form1">
+        <form action="">
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+            <br>
+            <label for="lname" id="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname" placeholder="last name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="someone@gmail.com"><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone">
+
+
+            <p>Please select your gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="Male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="Female">female</label>
+            <br><br>
+            <label for="dept">Department:</label>
+            <select name="dept" id="dept">
+                <option value="dept">choose</option>
+                <option value="CSE">CSE</option>
+                <option value="SWE">SWE</option>
+                <option value="CIS">CIS</option>
+            </select>
+            <br>
+            <h2>
+                Skills
+            </h2>
+            <input type="checkbox" id="skill1" name="skill1" value="pps">
+            <label for="skill1"> Problem Solving</label><br>
+            <input type="checkbox" id="skill2" name="skill2" value="wdev">
+            <label for="skill2"> Web Dev</label><br>
+            <input type="checkbox" id="skill3" name="skill3" value="awdev">
+            <label for="skill3"> Mobile Dev</label><br>
+
+            <br><br>
+            <label for="about">Write about yourself</label>
+            <br><br>
+            <textarea placeholder="describe about yourself" name="about" id="about" cols="30" rows="10"></textarea>
+
+
+
+            <div class="tacbox">
+                <input id="checkbox" type="checkbox" />
+                <label for="checkbox"> I agree to these Terms and Conditions</label>
+            </div>
+            <button id="button">submit</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
